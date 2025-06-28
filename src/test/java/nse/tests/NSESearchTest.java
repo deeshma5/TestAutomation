@@ -60,10 +60,12 @@ public class NSESearchTest extends BaseTest {
 		if(pnl > 0)
 		{
 		Assert.assertTrue(true, "Profit value is:" + pnl);
+		test.info("Profit value is:" + pnl);
 		}
 		else
 		{
 		Assert.assertTrue(true, "Loss value is:" + pnl);
+		test.info("Profit value is:" + pnl);
 		}
 	}
 }
