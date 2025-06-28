@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [NSE Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="Chrome(failed)">
+    <parameter name="lowValue" value="3,056.05"/>
+    <parameter name="stockName" value="TCS"/>
+    <parameter name="highValue" value="4,592.25"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="nse.tests.NSESearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSearchAndProfitLoss" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- nse.tests.NSESearchTest -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [NSE Test Suite] -->
