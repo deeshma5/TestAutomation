@@ -20,10 +20,8 @@
 
 1. Install Java , Maven, Chrome & Edge drivers
 
-2. `mvn clean test` OR
+2. Right Click on testng.xml file and Run As Test Suite.
 
-3. Right Click on testng.xml file and Run As Test Suite.
+3. Generated Report will be available under test-reports folder.
 
-4. Generated Report will be available under test-reports folder.
-
-5. Screenshot is visible under screenshot folder in case of test failure.
+4. Screenshot is visible under screenshot folder in case of test failure.
