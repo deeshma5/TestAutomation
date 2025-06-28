@@ -59,13 +59,13 @@ public class NSESearchTest extends BaseTest {
 		test.info("Simulated Profit/Loss: " + pnl);
 		if(pnl > 0)
 		{
-		Assert.assertTrue(true, "Profit value is:" + pnl);
-		test.info("Profit value is:" + pnl);
+			Assert.assertTrue(true, "Profit value is:" + pnl);
+			test.info("Profit value is:" + pnl);
 		}
 		else
 		{
-		Assert.assertTrue(true, "Loss value is:" + pnl);
-		test.info("Loss value is:" + pnl);
+			Assert.assertTrue(true, "Loss value is:" + pnl);
+			test.info("Loss value is:" + pnl);
 		}
 	}
 }
