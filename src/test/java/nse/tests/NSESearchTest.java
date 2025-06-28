@@ -65,7 +65,7 @@ public class NSESearchTest extends BaseTest {
 		else
 		{
 		Assert.assertTrue(true, "Loss value is:" + pnl);
-		test.info("Profit value is:" + pnl);
+		test.info("Loss value is:" + pnl);
 		}
 	}
 }
